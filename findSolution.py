@@ -57,7 +57,7 @@ class myShittySolution():
             if ((a - b) *c + d ==24):
                 print("solution found: (" + sa + " - " + sb + ") * " + sc + " + " + sd)
             if (a*b*c+d ==24):
-                print("solution found: " + sa + " * " + sb + " * " + sc + " + " + sd)
+                print("solution found: " + sa + " * " + sb+ " * " + sc + " + " + sd)
             if (a*b/c+d ==24):
                 print("solution found: " + sa + " * " + sb + " / " + sc + " + " + sd)
             if (a*b/c-d ==24):
