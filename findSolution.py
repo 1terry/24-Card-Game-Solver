@@ -104,6 +104,23 @@ class myShittySolution():
             if (b/c != 0 and (a-b/c) * d < 24.001 and (a-b/c) * d > 23.99):
                 print("solution found: (" + sa + " - " +
                       sb + " / " + sc + ") * " + sd)
+                print("solution found: " + sa + " * " +
+                      sb + " * (" + sc + " - " + sd + ")")
+            if ((a - b) * c + d == 24):
+                print("solution found: (" + sa + " - " +
+                      sb + ") * " + sc + " + " + sd)
+            if (a*b*c+d == 24):
+                print("solution found: " + sa + " * " +
+                      sb + " * " + sc + " + " + sd)
+            if (a*b/c+d == 24):
+                print("solution found: " + sa + " * " +
+                      sb + " / " + sc + " + " + sd)
+            if (a*b/c-d == 24):
+                print("solution found: " + sa + " * " +
+                      sb + " / " + sc + " - " + sd)
+            if (a*b/(c-d) == 24):
+                print("solution found: " + sa + " * " +
+                      sb + " / (" + sc + " - " + sd + ")")
 
 
 sol2 = myShittySolution()

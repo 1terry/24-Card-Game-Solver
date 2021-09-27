@@ -26,6 +26,7 @@ sol1 = solution()
 print(sol1.findOps(numbers))
 
 class myShittySolution():
+
     def checkNumbers(self, a, b, c, d):
        for a, b, c, d in itertools.permutations(numbers, 4):
             sa = str(a)
